@@ -1,33 +1,42 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap');
+
+table {
+  background-color: #000;
+  display: block;
+  padding-left: 16px;
+}
+
+img {
+  border: 2px solid #fff;
+  width: 250px;
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Darker Grotesque',
+  sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+input {
+ border-bottom: 1px solid #000;
+ border-left: none;
+ border-right: none;
+ border-top: none;
+ font-size: 24px;
+ display: block;
+ width: 99%;
+ padding-top: 10px;
+ padding-bottom: 1px;
+ padding-left: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.loading {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Border {
+  display: block;
+  border: 2px solid #fff;
 }
