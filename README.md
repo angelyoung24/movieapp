@@ -9,4 +9,7 @@ Built in ReactJS, it utilizes the OMDB API to search movie posters with a few ke
   * I may use CSS animation to accomplish this
 * Get rid of the loading... and replace it with a search button
 
+## Live Link
+https://angelyoung24.github.io/movieapp/
+
 
